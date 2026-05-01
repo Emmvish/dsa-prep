@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 
-const API_URL = "http://localhost:4000/api/problems";
+const API_URL = "/api/problems";
 
 function formatOutput(output) {
   if (!Array.isArray(output)) return String(output);

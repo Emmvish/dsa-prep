@@ -252,7 +252,7 @@ function parseProblemsFromSource(sourcePath) {
 }
 
 function getProblems() {
-  const sourcePath = path.resolve(__dirname, "./MAIN DSA QUESTIONS.js");
+  const sourcePath = path.resolve(__dirname, "../../data/MAIN DSA QUESTIONS.js");
   return parseProblemsFromSource(sourcePath);
 }
 
